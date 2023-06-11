@@ -1,0 +1,45 @@
+* {
+    font-family: Verdana, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    margin: 16px;
+}
+
+.home-link {
+    background-color: #1c6feb;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 8px;
+    text-decoration: none;
+    color: rgb(12, 207, 25);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #afd325;
+}
+
+img {
+    width: 50%;
+    object-fit: cover;
+}
+
+.recipe {
+    display: flex;
+    border: 2px solid red;
+    background-color: #114f;
+}
+
+.recipe-info {
+    border-left: 2px solid red;
+    padding: 16px;
+}
+
+p, li {
+    font-size: 15px;
+    color: white;
+}
